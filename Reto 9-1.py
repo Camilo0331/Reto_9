@@ -1,0 +1,8 @@
+n = int(input("Ingrese un número: "))
+i = int(input("Ingrese un número: "))
+sum = (lambda a, b: a+b)(n,i)
+print("La suma de "+str(n)+" y "+str(i)+" es "+str(sum))
+multi = (lambda a,b: a*b)(n,i)
+print("La multiplicación de "+str(n)+" y "+str(i)+" es "+str(multi))
+expo= (lambda a,b: a**b)(n,i)
+print(str(n)+" elevado a "+str(i)+" es "+str(expo))
